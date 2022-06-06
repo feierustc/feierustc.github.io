@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    font-stretch: 100%;
+    line-height: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 900px
+}
+
+table {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: inherit;
+    /* font-stretch: 110%; */
+    line-height: 16px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: larger;
+}
+
+.normal_link {
+    color: slateblue;
+}
+
+.paper_title {
+    font-variation-settings: 'GRAD' -200;
+    font-weight: 700; 
+    line-height: 0px;
+}
+
+.paper_author {
+    font-weight: inherit;
+}
+
+.paper_full_venue {
+    font-weight: inherit;
+}
+
+.paper_venue {
+    font-weight: 700;
+}
+
+.paper_link {
+    font-weight: inherit; 
+    padding-right: 20px;
+}
+
+.conf {
+    color: deepskyblue;
+}
+
+.jour {
+    color: #F8C471;
+}
+
+.arxiv {
+    color: #2ECC71;
+}
+
+.draft {
+    color: silver;
+}
+
+.workshop {
+    color: lightcoral;
+}
+
+
