@@ -2,18 +2,27 @@
 body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-weight: 300;
+    font-size: 16px;
     font-stretch: 100%;
-    line-height: 20px; 
+    line-height: 22px; 
     margin-left: auto; 
     margin-right: auto; 
-    max-width: 900px
+    max-width: min(900px, 90%);
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 table {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: inherit;
-    /* font-stretch: 110%; */
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    /* border-collapse: separate;  */
+    border-spacing: 0 0;
+}
+
+table td, table td * {
+    vertical-align: top;
 }
 
 li {
